@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(./fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url(./fonts/Poppins/Poppins-Light.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+#logo{
+    width: 200px;
+}
+header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legends{
+    border-color: #6020D6;
+    border-style: solid;
+    color: #6020D6;
+    font-family: 'PoppinsBold';
+}
+
+input {
+    padding: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+
+
+select{
+    padding: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch; 
+    max-width: 300px; 
+    margin: 0 auto;
+}
+
+fieldset{
+    border-color: #6020D6;
+}
+
+label{
+    font-family: 'PoppinsLight';
+}
+
+.btn{
+    border: none;
+    background-color: #6020D6;
+    color: white;
+    border-radius: 30px;
+    min-width: 300px;
+}
+
+.btn:hover{
+    background-color: #713fce;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-social{
+   height: 20px;
+}
+
+#ig-icon{
+    height: 25px;
+}
+
+.icones-sociais{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#endereco-empresa{
+    display: flex;
+    justify-content: center;
+}
